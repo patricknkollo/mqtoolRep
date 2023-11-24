@@ -1,0 +1,56 @@
+1696415537028:mqtool --help
+1696415548127:mqtool create -q myQ
+1696421532729:mqtool create -q myQ1
+1696421584921:mqtool push -m morning! -q myQ1
+1696509518243:mqtool --all queues & details
+1696510232432:mqtool -ls
+1696513081746:mqtool --all queues & details
+1696514326505:mqtool -ls
+1696514342967:cls
+1696517029356:mqtool --all queues & details
+1696518780282:mqtool -qs
+1696518905907:mqtool push -m youyou! -q myQ
+1696536912379:mqtool -qs
+1696543305688:mqtool delete -one -q myQ
+1696543327559:mqtool delete -one -q myQ1
+1696543858383:mqtool delete -one -q myQ
+1696544469548:mqtool delete -more -qs myQ myQ1
+1696544504707:mqtool delete -more -q myQ myQ1
+1696544863882:mqtool -qs
+1696601857280:mqtool create -q mmQ
+1696937417861:mqtool create -q someQ
+1696937434872:mqtool delete -q someQ
+1696937457417:mqtool delete more -q someQ
+1696937661799:mqtool push txt -q myQ -p text.txt
+1697099064410:mqtool create -q queueA
+1697099136600:mqtool push -m hello everybody -q queueA
+1697099195413:mqtool qs
+1697099229030:mqtool delete one -q queueA
+1697112564261:mqtool create -q queueA
+1697112586244:mqtool push -m hello -q queueA
+1697112591836:mqtool create -q queueB
+1697112634340:mqtool move-message -s queueA -t queueB
+1697116636826:mqtool move-message -s queueB -t queueA
+1697118122308:mqtool create -q queueA
+1697118133562:mqtool create -q queueB
+1697118141762:mqtool create -q queueC
+1697118173609:mqtool push -m hello -q queueA
+1697118215048:mqtool qs
+1697118278212:mqtool move-message -s queueA -t queueB
+1697118315786:mqtool delete one -q queueA
+1697118347196:mqtool delete more -q queueB queueC
+1697118374368:mqtool --help
+1697533527285:mqtool create -q queueC
+1697533545936:mqtool push -m hello -q queueC
+1697533719821:mqtool create -q Nailya
+1697533739100:mqtool push -m hello -q nailya
+1697533788398:mqtool move-message -s nailya -t Nailya
+1697534512166:mqtool push -m hi -q queueB
+1697537547462:mqtool push -m hein -q queueB
+1697538471252:mqtool push -m hein -queueC
+1697538483768:mqtool push -m hein -q queueC
+1697551937272:mqtool push -m hello -q queueC
+1697805904702:mqtool pull -q queueC -n 1 -c
+1697806206590:mqtool push -q queueC -m hello
+1698214022762:mqtool create -q queueH
+1699361066015:help

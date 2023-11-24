@@ -1,0 +1,15 @@
+%PARSER_ERROR[d]-INFO [main]c.m.w.WebApplication[StartupInfoLogger.java:51]:Starting WebApplication using Java 17.0.7 with PID 27300 (C:\Users\ndedi.patrick.nkollo\Downloads\rabba\mqtool\web\target\classes started by ndedi.patrick.nkollo in C:\Users\ndedi.patrick.nkollo\Downloads\rabba\mqtool)
+%PARSER_ERROR[d]-DEBUG [main]c.m.w.WebApplication[StartupInfoLogger.java:52]:Running with Spring Boot v3.1.4, Spring v6.0.12
+%PARSER_ERROR[d]-INFO [main]c.m.w.WebApplication[SpringApplication.java:637]:No active profile set, falling back to 1 default profile: "default"
+%PARSER_ERROR[d]-INFO [main]o.s.b.w.e.t.TomcatWebServer[TomcatWebServer.java:108]:Tomcat initialized with port(s): 8080 (http)
+%PARSER_ERROR[d]-INFO [main]o.s.b.w.s.c.ServletWebServerApplicationContext[ServletWebServerApplicationContext.java:291]:Root WebApplicationContext: initialization completed in 1586 ms
+%PARSER_ERROR[d]-INFO [main]o.s.b.a.w.s.WelcomePageHandlerMapping[WelcomePageHandlerMapping.java:59]:Adding welcome page: class path resource [static/index.html]
+%PARSER_ERROR[d]-INFO [main]o.s.b.w.e.t.TomcatWebServer[TomcatWebServer.java:220]:Tomcat started on port(s): 8080 (http) with context path ''
+%PARSER_ERROR[d]-INFO [main]c.m.w.WebApplication[StartupInfoLogger.java:57]:Started WebApplication in 2.971 seconds (process running for 3.566)
+%PARSER_ERROR[d]-INFO [http-nio-8080-exec-2]o.s.w.s.DispatcherServlet[FrameworkServlet.java:532]:Initializing Servlet 'dispatcherServlet'
+%PARSER_ERROR[d]-INFO [http-nio-8080-exec-2]o.s.w.s.DispatcherServlet[FrameworkServlet.java:554]:Completed initialization in 2 ms
+%PARSER_ERROR[d]-INFO [main]c.m.MqShellApp[StartupInfoLogger.java:51]:Starting MqShellApp using Java 17.0.7 with PID 30132 (C:\Users\ndedi.patrick.nkollo\Downloads\rabba\mqtool\shell\target\classes started by ndedi.patrick.nkollo in C:\Users\ndedi.patrick.nkollo\Downloads\rabba\mqtool)
+%PARSER_ERROR[d]-DEBUG [main]c.m.MqShellApp[StartupInfoLogger.java:52]:Running with Spring Boot v3.1.4, Spring v6.0.12
+%PARSER_ERROR[d]-INFO [main]c.m.MqShellApp[SpringApplication.java:637]:No active profile set, falling back to 1 default profile: "default"
+%PARSER_ERROR[d]-WARN [main]org.jline[Log.java:115]:Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+%PARSER_ERROR[d]-INFO [main]c.m.MqShellApp[StartupInfoLogger.java:57]:Started MqShellApp in 3.39 seconds (process running for 8.961)

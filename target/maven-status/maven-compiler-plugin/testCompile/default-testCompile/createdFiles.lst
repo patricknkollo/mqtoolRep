@@ -1,0 +1,4 @@
+com\mqTool\RabbitMqCommandsControllerTest.class
+com\mqTool\MqShellAppTests.class
+com\mqTool\DeleteAndListQControllerTest.class
+com\mqTool\TestMqShellApp.class
